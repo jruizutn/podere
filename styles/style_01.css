@@ -1,0 +1,82 @@
+:root{
+    --primario: #282384;
+    --secundario: #535FA6;
+    --terciario: #D90718;
+    --fondo: #F2F2F2;
+    --texto: #0D0D0D;
+    --line-height: 14px;
+}
+
+body{
+    color: var(--texto);
+    background-color: var(--fondo);
+    padding: 0px;
+}
+
+h2{
+    border-bottom: var(--secundario) 3px solid;
+    border-top: var(--secundario) 3px solid;
+    color: var(--terciario);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+.franja_prin{
+    background-color: var(--primario);
+    color: var(--fondo);
+    font-family: 'Arial', sans-serif, Serif;
+    font-size: 0.75rem;
+
+    padding-left: 0px;
+    padding-top: 3px;
+}
+
+.img_Izq{
+    display: block;
+    float: left;
+    margin-bottom: 8px;
+    margin-right: 20px;
+}
+
+.img_Izq img{
+    border: 5px solid var(--fondo);
+    border-radius: 5px 35px 5px 35px;
+    width: 175px;
+}
+
+.img_Der{
+    display: block;
+    float: right;
+    margin-bottom: 8px;
+    margin-left: 20px;
+}
+
+.img_Der img{
+    border: 8px solid var(--fondo);
+    border-radius: 35px 5px 35px 5px;
+    width: 175px;
+}
+
+.parr_01{
+    font-size: 1rem;
+    line-height: 1.50rem;
+    margin: 5px;
+    padding: 0;
+    text-align: justify;
+}
+
+.parr_02{
+    font-size: 1rem;
+    line-height: 1.50rem;
+    margin: 5px;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: justify;
+}
